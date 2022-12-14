@@ -8,11 +8,11 @@ plugins {
 }
 
 android {
-    namespace 'com.android.kotlinmvvmtodolist'
+    namespace 'com.d121201103.tasklist'
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.android.kotlinmvvmtodolist"
+        applicationId "com.d121201103.tasklist"
         minSdk 23
         //noinspection OldTargetApi
         targetSdk 32

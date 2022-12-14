@@ -1,9 +1,9 @@
-package com.android.kotlinmvvmtodolist.di
+package com.d121201103.tasklist.di
 
 import android.content.Context
 import androidx.room.Room
-import com.android.kotlinmvvmtodolist.data.local.TaskDatabase
-import com.android.kotlinmvvmtodolist.util.Constants.TASK_DATABASE
+import com.d121201103.tasklist.data.local.TaskDatabase
+import com.d121201103.tasklist.util.Constants.TASK_DATABASE
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

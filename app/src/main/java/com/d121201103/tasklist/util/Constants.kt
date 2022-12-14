@@ -1,4 +1,4 @@
-package com.android.kotlinmvvmtodolist.util
+package com.d121201103.tasklist.util
 
 object Constants {
     const val TASK_DATABASE = "task_database"

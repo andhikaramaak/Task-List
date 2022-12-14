@@ -1,9 +1,9 @@
-package com.android.kotlinmvvmtodolist.data.local
+package com.d121201103.tasklist.data.local
 
 import android.os.Parcelable
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.android.kotlinmvvmtodolist.util.Constants.TASK_TABLE
+import com.d121201103.tasklist.util.Constants.TASK_TABLE
 import kotlinx.parcelize.Parcelize
 
 @Parcelize

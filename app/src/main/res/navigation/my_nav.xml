@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/taskFragment"
-        android:name="com.android.kotlinmvvmtodolist.ui.task.TaskFragment"
+        android:name="com.d121201103.tasklist.ui.task.TaskFragment"
         android:label="Task List"
         tools:layout="@layout/fragment_task">
         <action
@@ -27,7 +27,7 @@
     </fragment>
     <fragment
         android:id="@+id/addFragment"
-        android:name="com.android.kotlinmvvmtodolist.ui.add.AddFragment"
+        android:name="com.d121201103.tasklist.ui.add.AddFragment"
         android:label="Add"
         tools:layout="@layout/fragment_add" >
         <action
@@ -40,7 +40,7 @@
     </fragment>
     <fragment
         android:id="@+id/updateFragment"
-        android:name="com.android.kotlinmvvmtodolist.ui.update.UpdateFragment"
+        android:name="com.d121201103.tasklist.ui.update.UpdateFragment"
         android:label="Update"
         tools:layout="@layout/fragment_update" >
         <action
@@ -52,6 +52,6 @@
             app:popUpToInclusive="true" />
         <argument
             android:name="task"
-            app:argType="com.android.kotlinmvvmtodolist.data.local.TaskEntry" />
+            app:argType="com.d121201103.tasklist.data.local.TaskEntry" />
     </fragment>
 </navigation>

@@ -1,4 +1,4 @@
-package com.android.kotlinmvvmtodolist.ui.add
+package com.d121201103.tasklist.ui.add
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -10,10 +10,10 @@ import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
-import com.android.kotlinmvvmtodolist.R
-import com.android.kotlinmvvmtodolist.data.local.TaskEntry
-import com.android.kotlinmvvmtodolist.databinding.FragmentAddBinding
-import com.android.kotlinmvvmtodolist.ui.task.TaskViewModel
+import com.d121201103.tasklist.R
+import com.d121201103.tasklist.data.local.TaskEntry
+import com.d121201103.tasklist.databinding.FragmentAddBinding
+import com.d121201103.tasklist.ui.task.TaskViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

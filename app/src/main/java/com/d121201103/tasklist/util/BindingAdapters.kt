@@ -1,4 +1,4 @@
-package com.android.kotlinmvvmtodolist.util
+package com.d121201103.tasklist.util
 
 import android.annotation.SuppressLint
 import android.graphics.Color

@@ -6,11 +6,11 @@
     <data>
         <variable
             name="taskEntry"
-            type="com.android.kotlinmvvmtodolist.data.local.TaskEntry" />
+            type="com.d121201103.tasklist.data.local.TaskEntry" />
 
         <variable
             name="clickListener"
-            type="com.android.kotlinmvvmtodolist.ui.task.TaskClickListener" />
+            type="com.d121201103.tasklist.ui.task.TaskClickListener" />
     </data>
 
     <androidx.cardview.widget.CardView

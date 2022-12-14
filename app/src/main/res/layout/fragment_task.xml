@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewModel"
-            type="com.android.kotlinmvvmtodolist.ui.task.TaskViewModel" />
+            type="com.d121201103.tasklist.ui.task.TaskViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

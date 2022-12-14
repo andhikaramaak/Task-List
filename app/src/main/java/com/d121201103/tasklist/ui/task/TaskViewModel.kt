@@ -1,10 +1,10 @@
-package com.android.kotlinmvvmtodolist.ui.task
+package com.d121201103.tasklist.ui.task
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.android.kotlinmvvmtodolist.data.TaskRepository
-import com.android.kotlinmvvmtodolist.data.local.TaskEntry
+import com.d121201103.tasklist.data.TaskRepository
+import com.d121201103.tasklist.data.local.TaskEntry
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject

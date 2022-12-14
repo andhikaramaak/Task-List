@@ -1,4 +1,4 @@
-package com.android.kotlinmvvmtodolist.ui.update
+package com.d121201103.tasklist.ui.update
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -10,10 +10,10 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import com.android.kotlinmvvmtodolist.R
-import com.android.kotlinmvvmtodolist.data.local.TaskEntry
-import com.android.kotlinmvvmtodolist.databinding.FragmentUpdateBinding
-import com.android.kotlinmvvmtodolist.ui.task.TaskViewModel
+import com.d121201103.tasklist.R
+import com.d121201103.tasklist.data.local.TaskEntry
+import com.d121201103.tasklist.databinding.FragmentUpdateBinding
+import com.d121201103.tasklist.ui.task.TaskViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

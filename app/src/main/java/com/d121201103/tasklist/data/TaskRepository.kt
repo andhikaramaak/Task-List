@@ -1,8 +1,8 @@
-package com.android.kotlinmvvmtodolist.data
+package com.d121201103.tasklist.data
 
 import androidx.lifecycle.LiveData
-import com.android.kotlinmvvmtodolist.data.local.TaskDao
-import com.android.kotlinmvvmtodolist.data.local.TaskEntry
+import com.d121201103.tasklist.data.local.TaskDao
+import com.d121201103.tasklist.data.local.TaskEntry
 import javax.inject.Inject
 
 class TaskRepository @Inject constructor(private val taskDao: TaskDao) {

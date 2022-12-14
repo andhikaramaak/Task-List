@@ -1,12 +1,12 @@
-package com.android.kotlinmvvmtodolist.ui.task
+package com.d121201103.tasklist.ui.task
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.android.kotlinmvvmtodolist.data.local.TaskEntry
-import com.android.kotlinmvvmtodolist.databinding.RowLayoutBinding
+import com.d121201103.tasklist.data.local.TaskEntry
+import com.d121201103.tasklist.databinding.RowLayoutBinding
 
 class TaskAdapter(private val clickListener: TaskClickListener):
     ListAdapter<TaskEntry, TaskAdapter.ViewHolder>(TaskDiffCallback) {

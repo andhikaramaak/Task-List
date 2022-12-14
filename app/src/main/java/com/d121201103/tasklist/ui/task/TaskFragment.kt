@@ -1,6 +1,6 @@
 @file:Suppress("DEPRECATION")
 
-package com.android.kotlinmvvmtodolist.ui.task
+package com.d121201103.tasklist.ui.task
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -18,8 +18,8 @@ import androidx.lifecycle.repeatOnLifecycle
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
-import com.android.kotlinmvvmtodolist.R
-import com.android.kotlinmvvmtodolist.databinding.FragmentTaskBinding
+import com.d121201103.tasklist.R
+import com.d121201103.tasklist.databinding.FragmentTaskBinding
 import com.google.android.material.snackbar.Snackbar
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collectLatest
